@@ -1,0 +1,16 @@
+.video-bg{
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.hero{
+  top: 4em;
+  left: 6em;
+  position: fixed;
+  font-size: 50px;
+  color: $white;
+  font-family: $ff-m;
+  -webkit-text-stroke: 0px $dark-gray;
+}

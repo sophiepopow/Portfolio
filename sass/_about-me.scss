@@ -1,0 +1,44 @@
+.about-me{
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 10px, auto;
+    top: -10px;
+    position: relative;
+  }
+  &__box{
+    border: 0px solid $light-gray;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto 10px;
+    align-items: center;
+    bottom: 40px;
+  }
+  &__title{
+    position: fixed;
+    color: $white;
+    left: 8.2em;
+    top: 7.8em;
+    font-size: 40px;
+    border: 0.5px $light-gray;
+  }
+  &__image{
+    width: 98%;
+
+  }
+  &__headline{
+    color: $dark-gray;
+    text-align: center;
+  }
+  &__text-box{
+    padding: 20px;
+    bottom: 50px;
+    width: 550px;
+  }
+  &__text{
+      text-transform: capitalize;
+  }
+}
