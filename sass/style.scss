@@ -42,8 +42,9 @@ ul, ol{
 .logo{
   text-decoration: none;
   color: $dark-gray;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 20px;
+  font-family: $ff-m;
 }
 .menu {
   padding: 0;
@@ -69,17 +70,12 @@ ul, ol{
 }
 .hero{
   top: 4em;
-  left: 2.8em;
-  position: relative;
+  left: 6em;
+  position: fixed;
   font-size: 50px;
-  color: #291400;
+  color: $white;
+  font-family: $ff-m;
 }
-// .main-page-image{
-//   width: 100%;
-//   position: relative;
-//   margin: 0;
-//
-// }
 .project-box_image{
   width: 30%;
 }
