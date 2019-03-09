@@ -1,3 +1,3 @@
 # Portfolio
-My Portfolio
-[ZOBACZ DEMO](https://sophiepopow.github.io/Portfolio/)
+My Portfolio 
+[DEMO](https://sophiepopow.github.io/Portfolio/)
