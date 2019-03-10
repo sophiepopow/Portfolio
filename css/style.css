@@ -25,17 +25,16 @@ ul, ol { list-style: none; padding: 0; }
 
 .project-wrapper { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 10px, auto; }
 
-.project-box { border: 1px solid #A7A7A7; padding: 10px; text-align: center; font-size: 0.8em; text-decoration: none; background: #F0F0F0; }
+.project-box { padding: 10px; text-align: center; font-size: 0.7em; text-decoration: none; box-shadow: 3px 3px 5px 6px #ccc; background: #FFFFFF; }
 .project-box__image { max-width: 250px; }
-.project-box__link { text-decoration: none; color: #606060; }
+.project-box__link { text-decoration: none; color: #606060; font-family: "Montserrat", sans-serif; }
 
 .about-me__wrapper { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 10px, auto; top: -10px; position: relative; }
-.about-me__box { border: 0px solid #A7A7A7; max-width: 800px; padding: 10px; margin: auto 10px; align-items: center; bottom: 40px; }
-.about-me__title { position: fixed; color: #FFFFFF; left: 8.2em; top: 7.8em; font-size: 40px; border: 0.5px #A7A7A7; }
-.about-me__image { width: 98%; }
+.about-me__box { border: 0px solid #A7A7A7; position: relative; max-width: 800px; padding: 10px; margin: 30px 10px 10px 10px; bottom: 40px; background-image: url(../images/about-me-2.jpg); background-size: cover; width: 400px; height: 510px; display: flex; justify-content: center; align-items: center; }
+.about-me__title { color: #FFFFFF; font-size: 40px; }
 .about-me__headline { color: #606060; text-align: center; }
 .about-me__text-box { padding: 20px; bottom: 50px; width: 550px; }
-.about-me__text { text-transform: capitalize; }
+.about-me__text { text-transform: none; }
 
 .contact { border: 0px solid black; padding: 40px; display: flex; justify-content: space-between; margin-top: 10px; position: absolute; height: 50px; }
 
