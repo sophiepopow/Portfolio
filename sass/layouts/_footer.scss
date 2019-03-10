@@ -1,0 +1,47 @@
+.footer{
+  border: 0px solid black;
+  background: $footer;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom: 0;
+  height: 50px;
+
+}
+.footer-menu1{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  padding: 0;
+  margin-left: 100px;
+  margin-top: -7px;
+
+}
+.footer-menu2{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  padding: 0;
+  margin: auto;
+  margin-top: -12px;
+}
+.footer-link{
+  text-decoration: none;
+  color: black;
+  text-transform: lowercase;
+}
+
+.footer-icon{
+  width: 25px;
+  height: 25px;
+
+  &__mail{
+  width: 30px;
+  height: 30px;
+  bottom: 5px;
+  }
+}
