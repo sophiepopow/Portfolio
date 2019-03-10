@@ -1,0 +1,23 @@
+@import 'variables/typography';
+@import 'variables/colors';
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: $dark-gray;
+  font-family: $ff-t;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+ul, ol{
+  list-style: none;
+  padding: 0;
+}
+
+@import 'layouts/navbar';
+@import 'modules/hero';
+@import 'modules/projects';
+@import 'modules/about-me';
+@import 'modules/contact';
+@import 'layouts/footer';
