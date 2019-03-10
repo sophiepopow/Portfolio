@@ -1,0 +1,44 @@
+.about-me{
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 10px, auto;
+    top: -10px;
+    position: relative;
+  }
+  &__box{
+    border: 0px solid $light-gray;
+    position: relative;
+    max-width: 800px;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+    bottom: 40px;
+    background-image: url(../images/about-me-2.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  &__title{
+    color: $white;
+    font-size: 40px;
+  }
+  &__headline{
+    color: $dark-gray;
+    text-align: center;
+  }
+  &__text-box{
+    padding: 20px;
+    bottom: 50px;
+    width: 550px;
+  }
+  &__text{
+      text-transform: none;
+  }
+}
